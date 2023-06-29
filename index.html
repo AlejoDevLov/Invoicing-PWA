@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="theme-color" content="black">
+    <link rel="website icon" type="png" href="./images/iconos-PWA/logo-144x144.png">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="./images/iconos-PWA/logo-96x96.png">
+    <title>W. Vargas Landscape</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container-form">
+            <form id="form">
+                <div class="up-form">
+                    <input type="text" placeholder="SOLD TO">
+                    <input type="text" placeholder="SHIP TO">
+                    <input type="text" placeholder="ADDRESS">
+                    <input type="text" placeholder="ADDRESS">
+                    <input type="text" placeholder="CITY, STATE, ZIP">
+                    <input type="text" placeholder="CITY, STATE, ZIP">
+                </div>
+                <div class="mid-form">
+                    <input type="number" placeholder="CUSTOMER ORDER N°">
+                    <input type="text" placeholder="SOLD BY">
+                    <input type="text" placeholder="TERMS">
+                    <input type="text" placeholder="F.O.B.">
+                    <input type="date" id="input-date">
+                </div>
+                <div class="bottom-form">
+
+                    <div class="ordered">
+                        <label id="ordered">ORDERED</label>
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered">
+                        <input type="text" name="ordered" class="last-input">
+                    </div>
+
+                    <div class="shipped">
+                        <label id="shipped">SHIPPED</label>
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped">
+                        <input type="text" name="shipped" class="last-input">
+                    </div>
+
+                    <div class="description">
+                        <label id="description">DESCRIPTION</label>
+                        <input type="text" name="description">
+                        <input type="text" name="description">
+                        <input type="text" name="description">
+                        <input type="text" name="description">
+                        <input type="text" name="description">
+                        <input type="text" name="description">
+                        <input type="text" name="description" class="last-input">
+                    </div>
+
+                    <div class="price">
+                        <label id="price">PRICE</label>
+                        <input type="number" name="price" class="price-input price-1">
+                        <input type="number" name="price" class="price-input price-2">
+                        <input type="number" name="price" class="price-input price-3">
+                        <input type="number" name="price" class="price-input price-4">
+                        <input type="number" name="price" class="price-input price-5">
+                        <input type="number" name="price" class="price-input price-6">
+                        <input type="number" name="price" class="price-input price-7 last-input">
+                    </div>
+
+                    <div class="unit">
+                        <label id="unit">UNIT</label>
+                        <input type="number" name="unit" class="unit-input unit-1">
+                        <input type="number" name="unit" class="unit-input unit-2">
+                        <input type="number" name="unit" class="unit-input unit-3">
+                        <input type="number" name="unit" class="unit-input unit-4">
+                        <input type="number" name="unit" class="unit-input unit-5">
+                        <input type="number" name="unit" class="unit-input unit-6">
+                        <input type="number" name="unit" class="unit-input unit-7">
+                        <div class="total-label">Total</div>
+                    </div>
+
+                    <div class="amount">
+                        <label id="amount">AMOUNT USD</label>
+                        <div class="amount-input amount-1"></div>
+                        <div class="amount-input amount-2"></div>
+                        <div class="amount-input amount-3"></div>
+                        <div class="amount-input amount-4"></div>
+                        <div class="amount-input amount-5"></div>
+                        <div class="amount-input amount-6"></div>
+                        <div class="amount-input amount-7"></div>
+                        <div class="amount-8 last-input"></div>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <section class="info-print">
+            <div class="user-info">
+                <p>W. Vargas Landscape</p>
+                <p>Maintenance & Reparation</p>
+                <p>Whatsapp: 8055397678</p>
+                <p>wilber8272@hotmail.com</p>
+            </div>
+            <div class="img-app">
+                <img src="./images/logo-empresa-tio.png" alt="logo landscape">
+            </div>
+        </section>
+        <button class="btn-print">Imprimir</button>
+    </div>
+    <footer class="footer"><p>&copy; <span id="date"></span>  W. Vargas Landscape</p></footer>
+
+    <script src="/js/app.js"></script>
+    <script src="/js/registerSW.js"></script>
+</body>
+</html>
